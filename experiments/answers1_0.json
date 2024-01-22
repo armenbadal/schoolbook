@@ -1,0 +1,26 @@
+{
+    "book-title": "book1",
+    "student-id": "student-0",
+    "answers": [
+        {
+            "field": "a0",
+            "content": "answer 0"
+        },
+        {
+            "field": "a1",
+            "content": "answer 1"
+        },
+        {
+            "field": "a2",
+            "content": "answer 2"
+        },
+        {
+            "field": "a3",
+            "content": "answer 3"
+        },
+        {
+            "field": "a4",
+            "content": "answer 4"
+        }
+    ]
+}
