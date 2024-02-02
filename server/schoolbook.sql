@@ -1,0 +1,24 @@
+CREATE TABLE Users (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    email TEXT NOT NULL UNIQUE,
+    password TEXT NOT NULL,
+    role TEXT NOT NULL
+);
+
+CREATE TABLE Books (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    title TEXT NOT NULL,
+    content TEXT NOT NULL
+);
+
+CREATE TABLE Answers(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    content TEXT
+);
+
+CREATE TABLE Works(
+    userId INTEGER,
+    bookId INTEGER,
+    answerId INTEGER
+);
